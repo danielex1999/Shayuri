@@ -1,0 +1,157 @@
+:root {
+  --Soft_blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very_dark_blue: hsl(217, 54%, 11%);
+  --Very-dark-blue_card: hsl(216, 50%, 16%);
+  --Very-dark-blue_line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #ff94bf;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  height: 600px;
+  width: 350px;
+  background-color: #efd7e3;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-nft-card {
+  margin-top: 25px;
+  height: 250px;
+  width: 300px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.Equilibrium-card {
+  height: 250px;
+  width: 200px;
+  margin-left: 16%;
+}
+
+.opacity-pointer {
+  position: relative;
+  top: -102%;
+  height: 251px;
+  width: 300px;
+  background: rgba(95, 87, 94, 0.4);
+  border-radius: 10px;
+  
+
+}
+
+.img-nft-card:hover .opacity-pointer {
+  display: flex;
+  cursor: pointer;
+}
+
+.contenedor-information {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 230px;
+  width: 300px;
+}
+
+.card-title {
+  color: #8a7d77;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.card-subtitle {
+  color: #8a7d77;
+  font-weight: 300;
+  font-size: 12px;
+  
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  justify-content: center;
+}
+
+.left-detail {
+  color: #8a7d77;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+
+}
+.left-detail img {
+  margin-right: 5px;
+}
+
+.rigth-detail {
+  color: var(--Soft_blue);
+  font-weight: 400;
+  align-items: center;
+  display: flex;
+}
+
+.rigth-detail img {
+  margin-right: 5px;
+}
+
+hr {
+  height: 1px;
+  background-color: rgba(95, 87, 94, 0.4);
+  margin-bottom: 15px;
+  border: none;
+}
+
+.footer-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-card img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.desciption-footer {
+  color: var(--Soft_blue);
+  margin-right: 3px;
+  font-size: 16px;
+}
+
+.name-person-footer {
+  color: var(--White);
+  font-size: 16px;
+}
+
+/*Formato Movil*/
+@media (max-width: 375px) {
+  .card-container {
+    width: 340px;
+  }
+}
