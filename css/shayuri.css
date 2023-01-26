@@ -35,7 +35,7 @@ body {
 
 .img-nft-card {
   margin-top: 25px;
-  height: 220px;
+  height: 250px;
   width: 300px;
   justify-content: center;
   background-color: white;
@@ -45,8 +45,8 @@ body {
 
 .Equilibrium-card {
   height: 250px;
-  width: 200px;
-  margin-left: 16%;
+  width: 180px;
+  margin-left: 20%;
 }
 
 .opacity-pointer {
