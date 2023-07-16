@@ -54,7 +54,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   //set content of a gird
   //element.textContent = tile.value;
 
-  inner.setAttribute('src', 'img/' + tile.value + '.jpg');
+  inner.setAttribute('src', '../img/2048_Game/' + tile.value + '.jpg');
   www = document.getElementsByClassName("grid-cell")[0].clientWidth;
   hhh = document.getElementsByClassName("grid-cell")[0].clientHeight;
   inner.setAttribute('style', 'width:' + www + 'px; height: ' + hhh + 'px;');
