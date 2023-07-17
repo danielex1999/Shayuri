@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Bodoni";
+  src: url(../../fonts/Bodoni/BodoniAntiquaURWLightRegular.ttf);
+}
+
+@font-face {
+  font-family: "Moon-dance";
+  src: url(../../fonts/Moon_Dance/MoonDance-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Dido";
+  src: url(../../fonts/Dido/DidotLTPro-Roman.ttf);
+}
+
+section#header-info {
+  height: 700px;
+  background-color: #fed4d6;
+  background-image: url(/img/main/header-background.png);
+  background-repeat: no-repeat;
+  background-size: 45% auto;
+  background-position: 115%;
+  display: flex;
+  align-items: center;
+}
+
+.row-header-info {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.columna-1-header {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1.header-h1 {
+  font-family: "Bodoni";
+  font-size: 36px;
+  letter-spacing: 4px;
+  color: #ca9da0;
+}
+h2.header-h2 {
+  font-family: "Moon-dance";
+  font-size: 42px;
+  letter-spacing: 8px;
+  color: #544233;
+}
+
+h3.header-h3 {
+  margin-top: 20px;
+  font-family: "Dido";
+  font-size: 24px;
+  color: #cca2a6;
+}
+
+.columna-2-header {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.columna-2-header img {
+  width: 90%;
+}
+
+img.love_float {
+  position: absolute;
+  width: 100px;
+  bottom: 5%;
+  left: 15%;
+}
+
+img.paw_float {
+  position: absolute;
+  width: 100px;
+  bottom: 10%;
+  right: 10%;
+}
+
+section#six-months {
+  height: auto;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#six-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-six-months {
+  width: 32%;
+}
+
+.six-months-text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+img.img-six {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 38px 28px 119px 34px;
+  -moz-border-radius: 38px 28px 119px 34px;
+  -webkit-border-radius: 38px 28px 119px 34px;
+  border: 10px dashed #000000;
+}
+
+img.img-promotion {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 38px 28px 119px 34px;
+  -moz-border-radius: 38px 28px 119px 34px;
+  -webkit-border-radius: 38px 28px 119px 34px;
+  border: 10px dashed #ffffff;
+}
+
+h1.text-h1-six {
+  font-family: "Moon-dance";
+  font-size: 45px;
+  color: #69135f;
+}
+
+h1.text-h1-promotion {
+  font-family: "Moon-dance";
+  font-size: 45px;
+  color: #ffffff;
+}
+p.text-p-promotion {
+  font-family: "Dido";
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+p.text-p-six {
+  font-family: "Dido";
+  font-size: 20px;
+  color: #cca2a6;
+  margin-top: 20px;
+  text-align: justify;
+}
+section#promotion {
+  height: auto;
+  background-color: #111111;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section#game2048 {
+  height: 240px;
+  background-color: #c6612645;
+  overflow: hidden;
+  background-image: url(../../img/main/2048score.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 50%;
+}
+.game2048div {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+a.button2048 {
+  width: auto;
+  height: 50px;
+  background: none;
+  border: 5px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: "Dido", serif;
+  cursor: pointer;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+a.button2048:hover {
+  border: 5px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  img.paw_float {
+    width: 55px;
+    bottom: 25%;
+    right: 10%;
+  }
+
+  img.love_float {
+    width: 55px;
+    bottom: 25%;
+    left: 15%;
+  }
+}
+@media screen and (max-width: 768px) {
+  section#header-info {
+    height: auto;
+    background-size: 100% auto;
+    background-position: right;
+  }
+  h1.header-h1 {
+    font-size: 30px;
+  }
+
+  h2.header-h2 {
+    font-size: 36px;
+  }
+
+  h3.header-h3 {
+    font-size: 20px;
+  }
+
+  .columna-2-header {
+    width: 50%;
+  }
+
+  img.love_float {
+    width: 80px;
+    bottom: 20%;
+  }
+
+  img.paw_float {
+    width: 80px;
+    bottom: 20%;
+  }
+
+  #six-container {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .img-six-months {
+    width: 50%;
+  }
+
+  .six-months-text {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+    .row-header-info{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+    .columna-1-header,.columna-2-header{
+        width: 100%;
+    }
+    img.paw_float{
+        width: 50px;
+        bottom: 0%;
+    }
+    img.love_float{
+        width: 50px;
+        bottom: -5%;
+    }
+    #six-container{
+        padding: 20px 0px;
+    }
+    p.text-p-six{
+        font-size: 16px;
+    }
+
+    p.text-p-promotion{
+        font-size: 16px;
+    }
+    section#game2048{
+        height: 160px;
+    }
+}
